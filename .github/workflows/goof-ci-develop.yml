@@ -33,7 +33,7 @@ jobs:
         with:
           push: false
           load: true
-          tags: goof:develop
+          tags: goof:develop         
       - name: Snyk Container Test
         continue-on-error: true
         uses: snyk/actions/docker@master
